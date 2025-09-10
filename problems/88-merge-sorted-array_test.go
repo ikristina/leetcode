@@ -5,9 +5,9 @@ import (
 	"testing"
 )
 
-func TestTwoSum(t *testing.T) {
-	got := TwoSum([]int{2, 7, 11, 15}, 9)
-	want := []int{0, 1}
+func TestMerge(t *testing.T) {
+	got := Merge([]int{1,2,3,0,0,0}, 3, []int{2,5,6}, 3)
+	want := []int{1,2,2,3,5,6}
 	if !slices.Equal(got, want) {
 		t.Fatalf("Got: %v, Want: %v", got, want)
 	}
@@ -15,6 +15,6 @@ func TestTwoSum(t *testing.T) {
 
 func BenchmarkTwoSum(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		_ = TwoSum([]int{2, 7, 11, 15}, 9)
+		_ = Merge([]int{1,2,3,0,0,0}, 3, []int{2,5,6}, 3)
 	}
 }
