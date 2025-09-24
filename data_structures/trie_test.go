@@ -1,5 +1,6 @@
 package datastructures
 
+import "testing"
 
 func TestTrieInsert(t *testing.T) {
 	trie := NewTrie()
