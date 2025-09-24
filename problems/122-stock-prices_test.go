@@ -31,7 +31,7 @@ func Test122(t *testing.T) {
 
 	for _, tc := range tests {
 		t.Run("", func(t *testing.T) {
-			got := maxProfit(tc.input)
+			got := maxProfit2(tc.input)
 			if got != tc.want {
 				t.Errorf("got: %v, want: %v", got, tc.want)
 			}

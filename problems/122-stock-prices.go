@@ -1,6 +1,6 @@
 package problems
 
-func maxProfit(prices []int) int {
+func maxProfit2(prices []int) int {
 	totalProfit := 0
 
 	for i := 1; i < len(prices); i++ {
