@@ -25,15 +25,15 @@ func Test122(t *testing.T) {
 		},
 		{
 			input: []int{6, 1, 3, 2, 4, 7},
-			want:  2,
+			want:  7,
 		},
 	}
 
 	for _, tc := range tests {
 		t.Run("", func(t *testing.T) {
-			got := MaxProfit(tc.input)
+			got := maxProfit(tc.input)
 			if got != tc.want {
-				t.Errorf("test failed")
+				t.Errorf("got: %v, want: %v", got, tc.want)
 			}
 		})
 	}
