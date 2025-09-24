@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-![Tests](https://github.com/USERNAME/REPO_NAME/workflows/Tests/badge.svg)
+![Tests](https://github.com/ikristina/leetcode/workflows/Tests/badge.svg)
 
 Go solutions for LeetCode problems with comprehensive test coverage.
 
