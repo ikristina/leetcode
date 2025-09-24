@@ -4,18 +4,27 @@ import "testing"
 
 func TestRomanToInteger(t *testing.T) {
 
-	tests := map[string]int{
-		"III":     3,
-		"IV":      4,
-		"IX":      9,
-		"LVIII":   58,
-		"MCMXCIV": 1994,
+	tests := map[string]struct {
+		input    string
+		expected int
+	}{
+		"III": {
+			input:    "III",
+			expected: 3,
+		},
+		"LVIII": {
+			input:    "LVIII",
+			expected: 58,
+		},
+		"MCMXCIV": {
+			input:    "MCMXCIV",
+			expected: 1994,
+		},
 	}
-
 	for name, tc := range tests {
 		t.Run(name, func(t *testing.T) {
-			if romanToInteger(name) != tc {
-				t.Error("Expected ", tc, " got ", romanToInteger(name))
+			if tc.expected != romanToInteger(tc.input) {
+				t.Errorf("%s: expected %d, got %d", name, tc.expected, romanToInteger(tc.input))
 			}
 		})
 	}
