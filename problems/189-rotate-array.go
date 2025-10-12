@@ -7,7 +7,7 @@ func rotate(nums []int, k int) {
 	if len(nums) == 0 {
 		return
 	}
-	k %= len(nums) // to stay within the length of nums.
+	k %= len(nums) // to stay within the length of nums in case k is higher than the length of array.
 
 	reverse(nums, 0, len(nums)-1) // reverse the whole slice so the numbers are in the correct order
 	reverse(nums, 0, k-1)         // reverse first part to restore the order
