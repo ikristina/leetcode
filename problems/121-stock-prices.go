@@ -1,6 +1,9 @@
 package problems
 
 func maxProfit(prices []int) int {
+	if len(prices) == 0 {
+		return 0
+	}
 	min := prices[0]
 	maxProfit := 0
 
