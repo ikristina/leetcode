@@ -3,7 +3,6 @@ package problems
 import "fmt"
 
 func strStr(haystack string, needle string) int {
-
 	needleLen := len(needle)
 	if len(haystack) == needleLen {
 		if haystack == needle {
@@ -15,7 +14,7 @@ func strStr(haystack string, needle string) int {
 		return -1
 	}
 
-	for i, _ := range haystack {
+	for i := range haystack {
 
 		if i+needleLen > len(haystack) {
 			fmt.Println(i, needleLen)
