@@ -1,3 +1,4 @@
+// Package problems contains LeetCode problem solutions.
 package problems
 
 import "sort"
