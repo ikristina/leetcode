@@ -20,6 +20,7 @@ go test ./...
 - [26. Remove Duplicates from Sorted Array](problems/26-remove-duplicates.go)
 - [27. Remove Element](problems/27-remove-element.go)
 - [28. Find the Index of the First Occurrence in a String](problems/28-find-the-ind-of-first-occur.go)
+- [36. Valid Sudoku](problems/36-valid-sudoku.go)
 - [55. Jump Game](problems/55-jump-game.go)
 - [58. Length of Last Word](problems/58-length-of-last-word.go)
 - [80. Remove Duplicates from Sorted Array II](problems/80-remove-duplicates-2.go)
