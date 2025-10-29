@@ -23,6 +23,7 @@ go test ./...
 - [36. Valid Sudoku](problems/36-valid-sudoku.go)
 - [54. Spiral Matrix](problems/54-spiral-matrix.go)
 - [55. Jump Game](problems/55-jump-game.go)
+- [56. Merge Intervals](problems/56-merge-intervals.go)
 - [58. Length of Last Word](problems/58-length-of-last-word.go)
 - [80. Remove Duplicates from Sorted Array II](problems/80-remove-duplicates-2.go)
 - [88. Merge Sorted Array](problems/88-merge-sorted-array.go)
