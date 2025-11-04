@@ -14,18 +14,18 @@ func mergeIntervals(intervals [][]int) [][]int {
 	})
 
 	start := intervals[0][0]
-	end := intervals[0][len(intervals[0])-1]
+	end := intervals[0][1]
 
 	for i := 1; i < len(intervals); i++ {
 		if len(intervals[i]) == 0 {
 			continue
 		}
 		if intervals[i][0] <= end {
-			end = max(end, intervals[i][len(intervals[i])-1])
+			end = max(end, intervals[i][1])
 		} else {
 			res = append(res, []int{start, end})
 			start = intervals[i][0]
-			end = intervals[i][len(intervals[i])-1]
+			end = intervals[i][1]
 		}
 	}
 
