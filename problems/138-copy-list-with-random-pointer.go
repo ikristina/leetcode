@@ -1,7 +1,6 @@
 package problems
 
-// Node...
-// Definition for a Node.
+// Node ...
 type Node struct {
 	Val    int
 	Next   *Node
