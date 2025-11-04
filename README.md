@@ -30,6 +30,7 @@ go test ./...
 - [121. Best Time to Buy and Sell Stock](problems/121-stock-prices.go)
 - [122. Best Time to Buy and Sell Stock II](problems/122-stock-prices.go)
 - [125. Valid Palindrome](problems/125-valid-palindrome.go)
+- [138. Copy List with Random Pointer](problems/138-copy-list-with-random-pointer.go)
 - [167. Two Sum II - Input Array Is Sorted](problems/167-two-sum-ii.go)
 - [169. Majority Element](problems/169-majority-element.go)
 - [189. Rotate Array](problems/189-rotate-array.go)
