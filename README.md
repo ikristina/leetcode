@@ -13,6 +13,7 @@ go test ./...
 ## Problems Solved
 
 - [1. Two Sum](problems/1-two-sum.go)
+- [2. Add Two Numbers](problems/2-add-two-numbers.go)
 - [3. Longest Substring Without Repeating Characters](problems/3-longest-substring-without-repeating-characters.go)
 - [11. Container With Most Water](problems/11-container-with-max-water.go)
 - [13. Roman to Integer](problems/13-roman-to-integer.go)
