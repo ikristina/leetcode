@@ -1,18 +1,18 @@
 package problems
+
 import (
-	"strconv"
 	"testing"
 )
 
 func TestIsValidSudoku(t *testing.T) {
-	tests := []struct {
+	tests := map[string]struct {
 		board [][]byte
 		want  bool
 	}{
-		{
+		"valid board": {
 			board: [][]byte{
 				{'5', '3', '.', '.', '7', '.', '.', '.', '.'},
-				{'6', '.', '.', '1', '9', '5', '.', '.', '.'},						
+				{'6', '.', '.', '1', '9', '5', '.', '.', '.'},
 				{'.', '9', '8', '.', '.', '.', '.', '6', '.'},
 				{'8', '.', '.', '.', '6', '.', '.', '.', '3'},
 				{'4', '.', '6', '8', '.', '3', '.', '.', '1'},
@@ -23,7 +23,7 @@ func TestIsValidSudoku(t *testing.T) {
 			},
 			want: true,
 		},
-		{
+		"invalid board": {
 			board: [][]byte{
 				{'8', '3', '.', '.', '7', '.', '.', '.', '.'},
 				{'6', '.', '.', '1', '9', '5', '.', '.', '.'},
@@ -39,10 +39,12 @@ func TestIsValidSudoku(t *testing.T) {
 		},
 	}
 
-	for _, tt := range tests {
-		got := isValidSudoku(tt.board)
-		if got != tt.want {
-			panic("isValidSudoku() = " + strconv.FormatBool(got) + ", want " + strconv.FormatBool(tt.want))
-		}
+	for name, tt := range tests {
+		t.Run(name, func(t *testing.T) {
+			got := isValidSudoku(tt.board)
+			if got != tt.want {
+				t.Errorf("isValidSudoku() = %v, want %v", got, tt.want)
+			}
+		})
 	}
-}	
+}
