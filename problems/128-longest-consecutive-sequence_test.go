@@ -1,7 +1,6 @@
 package problems
 
 import (
-	"fmt"
 	"testing"
 )
 
@@ -20,7 +19,7 @@ func TestLongestConsecutive(t *testing.T) {
 		},
 		"case 2": {
 			nums: []int{1, 0, 1, 2},
-			want: 2,
+			want: 3,
 		},
 	}
 
@@ -28,7 +27,7 @@ func TestLongestConsecutive(t *testing.T) {
 		t.Run(name, func(t *testing.T) {
 			got := longestConsecutive(tc.nums)
 			if got != tc.want {
-				fmt.Errorf("wrong length. Want %d, got %d", tc.want, got)
+				t.Errorf("wrong length. Want %d, got %d", tc.want, got)
 			}
 		})
 	}
