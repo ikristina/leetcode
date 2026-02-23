@@ -1,6 +1,8 @@
 # IDE files
 .idea/
 .vscode/
+.codo/
+.amazonq/
 *.swp
 *.swo
 *~

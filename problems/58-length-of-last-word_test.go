@@ -3,18 +3,20 @@ package problems
 import "testing"
 
 func TestLengthOfLastWord(t *testing.T) {
-	tests := []struct {
+	tests := map[string]struct {
 		s        string
 		expected int
 	}{
-		{"Hello World", 5},
-		{"   fly me   to   the moon  ", 4},
-		{"luffy is still joyboy", 6},
+		"Example 1": {s: "Hello World", expected: 5},
+		"Example 2": {s: "   fly me   to   the moon  ", expected: 4},
+		"Example 3": {s: "luffy is still joyboy", expected: 6},
 	}
-	for _, test := range tests {
-		actual := lengthOfLastWord(test.s)
-		if actual != test.expected {
-			t.Errorf("s: %s, expected: %d, actual: %d", test.s, test.expected, actual)
-		}
+	for name, test := range tests {
+		t.Run(name, func(t *testing.T) {
+			actual := lengthOfLastWord(test.s)
+			if actual != test.expected {
+				t.Errorf("s: %s, expected: %d, actual: %d", test.s, test.expected, actual)
+			}
+		})
 	}
 }
