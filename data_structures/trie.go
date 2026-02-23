@@ -1,5 +1,5 @@
 // Package datastructures provides common data structure implementations.
-package datastructures
+package data_structures
 
 // Trie ...
 type Trie struct {
