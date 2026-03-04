@@ -24,6 +24,7 @@ go test ./...
 - [27. Remove Element](problems/27-remove-element.go)
 - [28. Find the Index of the First Occurrence in a String](problems/28-find-the-ind-of-first-occur.go)
 - [36. Valid Sudoku](problems/36-valid-sudoku.go)
+- [49. Group Anagrams](problems/49-group-anagrams.go)
 - [54. Spiral Matrix](problems/54-spiral-matrix.go)
 - [55. Jump Game](problems/55-jump-game.go)
 - [56. Merge Intervals](problems/56-merge-intervals.go)
@@ -46,11 +47,13 @@ go test ./...
 - [209. Minimum Size Subarray Sum](problems/209-minimum-size-subarray-sum.go)
 - [215. Kth Largest Element in an Array](problems/215-Kth-largest-element-in-an-array.go)
 - [228. Summary Ranges](problems/228-summary-ranges.go)
+- [242. Valid Anagram](/problems/242-valid-anagram.go)
 - [287. Find the Duplicate Number](problems/287-find-the-duplicate-number.go)
 - [322. Coin Change](problems/322-coin-change.go)
 - [380. Insert Delete GetRandom O(1)](problems/380-insert-delete-getrandom-o1.go)
 - [383. Ransom Note](problems/383-ransom-note.go)
 - [392. Is Subsequence](problems/392-is-subsequence.go)
+- [2130. Maximum Twin Sum of A Linked List](problems/2130-maximum-twin-sum-of-a-linked-list.go)
 
 ## Data Structures
 
