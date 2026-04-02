@@ -49,12 +49,14 @@ go test ./...
 - [215. Kth Largest Element in an Array](problems/215-Kth-largest-element-in-an-array.go)
 - [226. Invert Binary Tree](problems/226-invert-binary-tree.go)
 - [228. Summary Ranges](problems/228-summary-ranges.go)
+- [235. Lowest Common Ancestor of a Binary Search Tree](problems/235-lowest-common-ancestor-of-bst.go)
 - [242. Valid Anagram](/problems/242-valid-anagram.go)
 - [287. Find the Duplicate Number](problems/287-find-the-duplicate-number.go)
 - [322. Coin Change](problems/322-coin-change.go)
 - [380. Insert Delete GetRandom O(1)](problems/380-insert-delete-getrandom-o1.go)
 - [383. Ransom Note](problems/383-ransom-note.go)
 - [392. Is Subsequence](problems/392-is-subsequence.go)
+- [572. Subtree of Another Tree](problems/572-subtree-or-another-tree.go)
 - [2130. Maximum Twin Sum of A Linked List](problems/2130-maximum-twin-sum-of-a-linked-list.go)
 
 ## Data Structures
