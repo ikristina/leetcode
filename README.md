@@ -33,6 +33,7 @@ go test ./...
 - [75. Sort Colors](problems/75-sort-colors.go)
 - [80. Remove Duplicates from Sorted Array II](problems/80-remove-duplicates-2.go)
 - [88. Merge Sorted Array](problems/88-merge-sorted-array.go)
+- [98. Validate Binary Search Tree](problems/98-validate-binary-search-tree.go)
 - [70. Climbing Stairs](problems/70-climbing-stairs.go)
 - [104. Maximum Depth of Binary Tree](problems/104-maximum-depth-of-binary-tree.go)
 - [121. Best Time to Buy and Sell Stock](problems/121-stock-prices.go)
@@ -45,6 +46,7 @@ go test ./...
 - [167. Two Sum II - Input Array Is Sorted](problems/167-two-sum-ii.go)
 - [169. Majority Element](problems/169-majority-element.go)
 - [189. Rotate Array](problems/189-rotate-array.go)
+- [199. Binary Tree Right Side View](problems/199-right-side-view.go)
 - [209. Minimum Size Subarray Sum](problems/209-minimum-size-subarray-sum.go)
 - [215. Kth Largest Element in an Array](problems/215-Kth-largest-element-in-an-array.go)
 - [226. Invert Binary Tree](problems/226-invert-binary-tree.go)
@@ -56,6 +58,7 @@ go test ./...
 - [380. Insert Delete GetRandom O(1)](problems/380-insert-delete-getrandom-o1.go)
 - [383. Ransom Note](problems/383-ransom-note.go)
 - [392. Is Subsequence](problems/392-is-subsequence.go)
+- [543. Diameter of Binary Tree](problems/543-diameter-of-binary-tree.go)
 - [572. Subtree of Another Tree](problems/572-subtree-or-another-tree.go)
 - [2130. Maximum Twin Sum of A Linked List](problems/2130-maximum-twin-sum-of-a-linked-list.go)
 
