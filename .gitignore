@@ -3,6 +3,7 @@
 .vscode/
 .codo/
 .amazonq/
+.zed/
 *.swp
 *.swo
 *~
