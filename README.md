@@ -62,3 +62,4 @@ go test ./...
 ## Data Structures
 
 - [Trie](data_structures/trie.go)
+- [Binary Tree](data_structures/tree.go)
