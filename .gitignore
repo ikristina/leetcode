@@ -31,3 +31,8 @@ go.work
 *.tmp
 *.temp
 *.log
+
+# Python
+venv/
+.env/
+__pycache__/

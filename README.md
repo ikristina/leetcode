@@ -6,8 +6,22 @@ Go solutions for LeetCode problems with comprehensive test coverage.
 
 ## Running Tests
 
+### Go
+
 ```bash
 go test ./...
+```
+
+### Python
+
+To work with the Python files, you can use the virtual environment in the `problems/python_dump` directory:
+
+```bash
+cd problems/python_dump
+python3 -m venv venv
+source venv/bin/activate
+# Run your scripts or install dependencies like pytest here
+# Use 'deactivate' when you are done
 ```
 
 ## Problems Solved
