@@ -51,6 +51,7 @@ source venv/bin/activate
 - [70. Climbing Stairs](problems/70-climbing-stairs.go)
 - [102. Binary Tree Level Order Traversal](problems/102-binary-tree-level-order-traversal.go)
 - [104. Maximum Depth of Binary Tree](problems/104-maximum-depth-of-binary-tree.go)
+- [116. Populating Next Right Pointers in Each Node](problems/116-populating-next-right-pointers-in-each-node.go)
 - [121. Best Time to Buy and Sell Stock](problems/121-stock-prices.go)
 - [122. Best Time to Buy and Sell Stock II](problems/122-stock-prices.go)
 - [125. Valid Palindrome](problems/125-valid-palindrome.go)
