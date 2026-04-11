@@ -76,6 +76,8 @@ source venv/bin/activate
 - [392. Is Subsequence](problems/392-is-subsequence.go)
 - [543. Diameter of Binary Tree](problems/543-diameter-of-binary-tree.go)
 - [572. Subtree of Another Tree](problems/572-subtree-or-another-tree.go)
+- [637. Average of Levels in Binary Tree](problems/637-average-of-levels-in-binary-tree.go)
+- [994. Rotting Oranges](problems/994-rotting-oranges.go)
 - [2130. Maximum Twin Sum of A Linked List](problems/2130-maximum-twin-sum-of-a-linked-list.go)
 
 ## Data Structures
