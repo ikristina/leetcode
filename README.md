@@ -67,6 +67,7 @@ source venv/bin/activate
 - [215. Kth Largest Element in an Array](problems/215-Kth-largest-element-in-an-array.go)
 - [226. Invert Binary Tree](problems/226-invert-binary-tree.go)
 - [228. Summary Ranges](problems/228-summary-ranges.go)
+- [230. Kth Smallest Element in a BST](problems/230-kth-smallest-element-bst.go)
 - [235. Lowest Common Ancestor of a Binary Search Tree](problems/235-lowest-common-ancestor-of-bst.go)
 - [242. Valid Anagram](/problems/242-valid-anagram.go)
 - [287. Find the Duplicate Number](problems/287-find-the-duplicate-number.go)
