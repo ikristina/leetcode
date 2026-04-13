@@ -33,6 +33,7 @@ source venv/bin/activate
 - [13. Roman to Integer](problems/13-roman-to-integer.go)
 - [14. Longest Common Prefix](problems/14-longest-common-prefix.go)
 - [15. Three Sum](problems/15-three-sum.go)
+- [17. Letter Combinations of a Phone Number](problems/17-letter-combinations-of-a-phone-number.go)
 - [19. Remove Nth Node From End of List](problems/19-remove-nth-node-from-end-linked-list.go)
 - [26. Remove Duplicates from Sorted Array](problems/26-remove-duplicates.go)
 - [27. Remove Element](problems/27-remove-element.go)
@@ -55,6 +56,7 @@ source venv/bin/activate
 - [116. Populating Next Right Pointers in Each Node](problems/116-populating-next-right-pointers-in-each-node.go)
 - [121. Best Time to Buy and Sell Stock](problems/121-stock-prices.go)
 - [122. Best Time to Buy and Sell Stock II](problems/122-stock-prices.go)
+- [124. Binary Tree Maximum Path Sum](problems/124-binary-tree-maximum-path-sum.go)
 - [125. Valid Palindrome](problems/125-valid-palindrome.go)
 - [128. Longest Consecutive Sequence](problems/128-longest-consecutive-sequence.go)
 - [138. Copy List with Random Pointer](problems/138-copy-list-with-random-pointer.go)
@@ -81,6 +83,7 @@ source venv/bin/activate
 - [637. Average of Levels in Binary Tree](problems/637-average-of-levels-in-binary-tree.go)
 - [981. Time Based Key-Value Store](problems/981-time-based-key-value-store.go)
 - [994. Rotting Oranges](problems/994-rotting-oranges.go)
+- [1664. Ways to Make a Fair Array](problems/1664-ways-to-make-a-fair-array.go)
 - [2130. Maximum Twin Sum of A Linked List](problems/2130-maximum-twin-sum-of-a-linked-list.go)
 
 ## Data Structures
