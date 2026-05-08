@@ -66,6 +66,7 @@ source venv/bin/activate
 - [141. Linked List Cycle](problems/141-linked-list-cycle.go)
 - [150. Evaluate Reverse Polish Notation](problems/150-evaluate-reverse-polish-notation.go)
 - [152. Maximum Product Subarray](problems/152-maximum-product-subarray.go)
+- [153. Find Minimum in Rotated Sorted Array](problems/153-find-minimum-in-rotated-sorted-array.go)
 - [155. Min Stack](problems/155-min-stack.go)
 - [167. Two Sum II - Input Array Is Sorted](problems/167-two-sum-ii.go)
 - [169. Majority Element](problems/169-majority-element.go)
