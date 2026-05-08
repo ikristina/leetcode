@@ -39,6 +39,7 @@ source venv/bin/activate
 - [26. Remove Duplicates from Sorted Array](problems/26-remove-duplicates.go)
 - [27. Remove Element](problems/27-remove-element.go)
 - [28. Find the Index of the First Occurrence in a String](problems/28-find-the-ind-of-first-occur.go)
+- [33. Search in Rotated Sorted Array](problems/33-search-in-rotated-sorted-array.go)
 - [36. Valid Sudoku](problems/36-valid-sudoku.go)
 - [49. Group Anagrams](problems/49-group-anagrams.go)
 - [54. Spiral Matrix](problems/54-spiral-matrix.go)
