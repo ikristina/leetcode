@@ -28,14 +28,14 @@ func TestLetterCombinations(t *testing.T) {
 	for name, tc := range tests {
 		t.Run(name, func(t *testing.T) {
 			got := letterCombinations(tc.digits)
-			if !equal(got, tc.want) {
+			if !equalStrings(got, tc.want) {
 				t.Errorf("letterCombinations(%s) = %v, want %v", tc.digits, got, tc.want)
 			}
 		})
 	}
 }
 
-func equal(a, b []string) bool {
+func equalStrings(a, b []string) bool {
 	if len(a) != len(b) {
 		return false
 	}
