@@ -84,6 +84,8 @@ source venv/bin/activate
 - [230. Kth Smallest Element in a BST](problems/230-kth-smallest-element-bst.go)
 - [235. Lowest Common Ancestor of a Binary Search Tree](problems/235-lowest-common-ancestor-of-bst.go)
 - [242. Valid Anagram](problems/242-valid-anagram.go)
+- [261. Graph Valid Tree](problems/261-graph-valid-tree.go)
+- [269. Alien Dictionary](problems/269-alien-dictionary.go)
 - [287. Find the Duplicate Number](problems/287-find-the-duplicate-number.go)
 - [322. Coin Change](problems/322-coin-change.go)
 - [380. Insert Delete GetRandom O(1)](problems/380-insert-delete-getrandom-o1.go)
