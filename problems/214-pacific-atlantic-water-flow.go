@@ -6,10 +6,10 @@ func pacificAtlantic(heights [][]int) [][]int {
     n := len(heights[0])
 
     pacificQueue := [][]int{}
-    for i := 0; i < m; i++ {
+    for i := range m {
         pacificQueue = append(pacificQueue, []int{i, 0})
     }
-    for i := 1; i < n; i++ {
+    for i := range n {
         pacificQueue = append(pacificQueue, []int{0, i})
     }
 
@@ -45,10 +45,10 @@ func pacificAtlantic(heights [][]int) [][]int {
 
 
     atlanticQueue := [][]int{}
-    for i := 0; i < m; i++ {
+    for i := range m {
         atlanticQueue = append(atlanticQueue, []int{i, n-1})
     }
-    for i := 0; i < n; i++ {
+    for i := range n {
         atlanticQueue = append(atlanticQueue, []int{m-1, i})
     }
 
