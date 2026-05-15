@@ -3,33 +3,9 @@ package problems
 import (
 	"container/heap"
 	"math"
+
+	"github.com/ikristina/leetcode/data_structures"
 )
-
-// Item represents a node and its currently known shortest distance from the source.
-type Item struct {
-	node int
-	dist int
-}
-
-// PriorityQueue implements heap.Interface and holds Items.
-// It is used as a Min-Heap based on the distance.
-type PriorityQueue []Item
-
-func (pq PriorityQueue) Len() int           { return len(pq) }
-func (pq PriorityQueue) Less(i, j int) bool { return pq[i].dist < pq[j].dist }
-func (pq PriorityQueue) Swap(i, j int)      { pq[i], pq[j] = pq[j], pq[i] }
-
-func (pq *PriorityQueue) Push(x interface{}) {
-	*pq = append(*pq, x.(Item))
-}
-
-func (pq *PriorityQueue) Pop() interface{} {
-	old := *pq
-	n := len(old)
-	item := old[n-1]
-	*pq = old[0 : n-1]
-	return item
-}
 
 // networkDelayTimePQ finds the time it takes for all nodes to receive a signal.
 // It uses Dijkstra's algorithm with a Priority Queue for O(E log V) efficiency.
@@ -48,14 +24,15 @@ func networkDelayTimePQ(times [][]int, n, k int) int {
 	}
 
 	// Initialize the Min-Heap with the starting node.
-	pq := &PriorityQueue{}
+	pq := &data_structures.PriorityQueue{}
 	heap.Init(pq)
-	heap.Push(pq, Item{node: k, dist: 0})
+	heap.Push(pq, data_structures.PriorityQueueItem{Value: k, Priority: 0})
 
 	for pq.Len() > 0 {
 		// Pop the node with the SMALLEST distance.
-		curr := heap.Pop(pq).(Item)
-		u, d := curr.node, curr.dist
+		curr := heap.Pop(pq).(data_structures.PriorityQueueItem)
+		u := curr.Value.(int)
+		d := curr.Priority
 
 		// Optimization: if we already found a better path to 'u',
 		// ignore this stale entry from the heap.
@@ -68,7 +45,7 @@ func networkDelayTimePQ(times [][]int, n, k int) int {
 			v, weight := edge[0], edge[1]
 			if dist[u]+weight < dist[v] {
 				dist[v] = dist[u] + weight
-				heap.Push(pq, Item{node: v, dist: dist[v]})
+				heap.Push(pq, data_structures.PriorityQueueItem{Value: v, Priority: dist[v]})
 			}
 		}
 	}
