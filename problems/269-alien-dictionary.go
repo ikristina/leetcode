@@ -47,9 +47,12 @@ func alienOrder(words []string) string {
         }
     }
 
-
-	return result
-
+    // Reverse the result because DFS topological sort produces nodes in reverse post-order.
+    bytes := []byte(result)
+    for i, j := 0, len(bytes)-1; i < j; i, j = i+1, j-1 {
+        bytes[i], bytes[j] = bytes[j], bytes[i]
+    }
+    return string(bytes)
 }
 
 func buildGraph(words []string) map[byte][]byte {
