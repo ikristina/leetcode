@@ -90,6 +90,8 @@ source venv/bin/activate
 - [287. Find the Duplicate Number](problems/287-find-the-duplicate-number.go)
 - [295. Max Area of Island](problems/295-max-area-of-island.go)
 - [322. Coin Change](problems/322-coin-change.go)
+- [743. Network Delay Time](problems/743-network-delay-time.go)
+- [743. Network Delay Time (Priority Queue)](problems/743-network-delay-time-pq.go)
 - [380. Insert Delete GetRandom O(1)](problems/380-insert-delete-getrandom-o1.go)
 - [383. Ransom Note](problems/383-ransom-note.go)
 - [392. Is Subsequence](problems/392-is-subsequence.go)
