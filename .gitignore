@@ -36,3 +36,8 @@ go.work
 venv/
 .env/
 __pycache__/
+
+AGENTS.md
+CLAUDE.md
+.cursor/
+problems/python_dump/pyrightconfig.json
